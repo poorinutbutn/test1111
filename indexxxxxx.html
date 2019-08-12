@@ -142,9 +142,18 @@ body,td,th {
 
 <div class="topnav" id="myTopnav">
   <a href="#home" class="active">หน้าหลัก</a>
-  <a href="#news">มาตรฐานรถทัวร์</a>
+	<div class="dropdown">
+    <button class="dropbtn">มาตรฐานรถทัวร์
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://www.rentalcars.com/">rentalcars</a>
+      <a href="http://www.ttanddgroup.com">ttanddgroup</a>
+      <a href="https://www.skyscanner.co.th">skyscanner</a>
+    </div>
+  </div> 
   <a href="#contact">สถานที่ท่องเที่ยวแนะนำ</a>
-  <a href="#contact">แผนที่เดินรถ</a>
+  <a href="#contact">ติดตามการเดินทาง GPS</a>
   <div class="dropdown">
     <button class="dropbtn">จัดหาเช่ารถยนต์
       <i class="fa fa-caret-down"></i>
@@ -186,12 +195,13 @@ and is wrapped around the whole page content, except for the footer in this exam
   <!-- Header -->
   <header class="w3-container w3-center w3-padding-48 w3-white">
     <h1 class="w3-xxxlarge"><strong></strong>THE DEVELOPMENT OF BUS TICKET COMPARISON</h1>
-    <h6>เว็บแอพพลิเคชั่นบริการเปรียบเทียบ<span class="w3-tag">ราคาตั๋วรถทัวร์ </span></h6>
+    <h6>เว็บแอพพลิเคชั่นบริการเปรียบเทียบ<span class="w3-tag w3-blue">ราคาตั๋วรถทัวร์ </span></h6>
   </header>
 	
 <header class="w3-display-container w3-content" style="max-width:1500px;">
     <img src="image/11.png" alt="The Hotel" style="min-width:1000px" width="1349" height="500">
     <div class="w3-display-left w3-padding-large">
+		 <h1 class="w3-jumbo w3-text-black w3-hide-small"><b>เลือกเส้นทางการเดินทาง</b></h1>
      <form action="" method="post" name="form1" target="_parent" class="fa" id="form1" onsubmit="return doSubmit(this);">
 					  <input type="hidden" name="appkey" value="f83956c5260d33981935c9e80d1a5a5d" />
 					  <input type="hidden" name="adult" value="1" />
@@ -252,37 +262,9 @@ and is wrapped around the whole page content, except for the footer in this exam
  
     
       <!-- About Card --><!-- Posts -->
-      <div class="w3-white w3-margin">
-        <div class="w3-container w3-padding w3-orange">
-          <h4>เส้นทางแนะนำ</h4>
-        </div>
-        <ul class="w3-ul w3-hoverable w3-white">
-          <li class="w3-padding-16"><span class="w3-large"><a href="ticketbus.html">กรุงเทพ-ขอนแก่น</a></span>
-            <br>
-           
-          </li>
-          <li class="w3-padding-16"><span class="w3-large"><a href="ticketbus.html">กรุงเทพ-ลำปาง</a></span>
-            <br>
-   </li>
-                 <li class="w3-padding-16"><span class="w3-large"><a href="ticketbus.html">กรุงเทพ-เชียงใหม่</a></span>
-            <br>
-                 <li class="w3-padding-16"><span class="w3-large"><a href="ticketbus.html">กรุงเทพ-กระบี่</a></span>
-            <br>
-          </li>
-          
-               <li class="w3-padding-16"><span class="w3-large"><a href="ticketbus.html">กรุงเทพ-ภูเก็ต</a></span>
-            <br>
-          </li>
-          </li>
-            <li class="w3-padding-16"><span class="w3-large"><a href="ticketbus.html">กรุงเทพ-พังงา</a></span>
-            <br>
-          </li>
-        </ul>
-      </div>
 
-
-	<div class="w3-row-padding w3-center w3-margin-top">
-<div class="w3-third">
+    <div class="w3-row-padding w3-center w3-margin-top">
+  <div class="w3-third">
   <div class="w3-card w3-container" style="min-height:460px">
   <h3>Responsive</h3><br>
   <i class="fa fa-desktop w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
