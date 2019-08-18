@@ -7,10 +7,11 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Mali&display=swap" rel="stylesheet">
+
 <style>
 	body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 	.topnav {
@@ -114,9 +115,9 @@
     text-align: left;
   }
 }
-h1,h2,h3,h5 {font-family: "Oswald"}
-h4,h6{font-family : "th SarabunPSK" font-size: 30px; }
-body {font-family: "Open Sans"}
+h1 {font-family: "Lucida Console"}
+h4,h6{font-family: 'Mali', cursive; font-size: 40px; }
+body {font-family: "Mali"}
 body,td,th {
 	font-family: "th SarabunPSK";
 	font-size: 20px;
@@ -137,27 +138,24 @@ body,td,th {
   border-radius: 4px;
   cursor: pointer;
 }
-	img 1 {
-  width: 100%;
-  height: auto;
-}
+	
 </style>
 <body class="w3-light-gray">
 
 <div class="topnav" id="myTopnav">
-  <a href="indexxxxxx.html" class="active">หน้าหลัก</a>
+  <a href="#home" class="active">หน้าหลัก</a>
 	<div class="dropdown">
     <button class="dropbtn">มาตรฐานรถทัวร์
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="carstandardb.html">บริษัท บขส</a>
-      <a href="carstandardn.html">บริษัท นครชัยแอร์</a>
-      <a href="carstandard.html">บริษัท สมบัติทัวร์</a>
+      <a href="https://www.rentalcars.com/">rentalcars</a>
+      <a href="http://www.ttanddgroup.com">ttanddgroup</a>
+      <a href="https://www.skyscanner.co.th">skyscanner</a>
     </div>
   </div> 
-  <a href="travel.html">สถานที่ท่องเที่ยวแนะนำ</a>
-  <a href="openmap.html">ติดตามการเดินทาง GPS</a>
+  <a href="#contact">สถานที่ท่องเที่ยวแนะนำ</a>
+  <a href="#contact">ติดตามการเดินทาง GPS</a>
   <div class="dropdown">
     <button class="dropbtn">จัดหาเช่ารถยนต์
       <i class="fa fa-caret-down"></i>
@@ -199,11 +197,11 @@ and is wrapped around the whole page content, except for the footer in this exam
   <!-- Header -->
   <header class="w3-container w3-center w3-padding-48 w3-white">
     <h1 class="w3-xxxlarge"><strong></strong>THE DEVELOPMENT OF BUS TICKET COMPARISON</h1>
-    <h6>เว็บแอพพลิเคชั่นบริการเปรียบเทียบ<span class="w3-tag w3-blue">ราคาตั๋วรถทัวร์ </span></h6>
+   
   </header>
 	
 <header class="w3-display-container w3-content" style="max-width:1500px;">
-    <img 1 src="image/11.png" alt="The Hotel" style="width:100%" height="500">
+    <img src="image/11.png" alt="The Hotel" style="width:100%" height="500">
     <div class="w3-display-left w3-padding-large">
 		 <h1 class="w3-xxxlarge w3-text-blue w3-hide-small"><b>เลือกเส้นทางการเดินทาง</b></h1>
      <form action=""  method="post" name="form1" target="_parent" class="fa" id="form1" onsubmit="return doSubmit(this);"><center>
@@ -264,8 +262,41 @@ and is wrapped around the whole page content, except for the footer in this exam
     </div>
   </header>
  
-    
-      <!-- About Card --><!-- Posts -->
+	 <div class="w3-container w3-padding-large w3-whtite">
+    <h4><center><b>เส้นทางแนะนำ</b></center></h4>
+   <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-light-blue">
+        <p><i class="fa fa-car" style="font-size:60px;color:lightblue;text-shadow:2px 2px 4px #000000;"></i></p>
+        <p>ภาคเหนือ</p>
+		  <p> กรุงเทพ - เชียงใหม่ </p>
+		  <p> กรุงเทพ - เชียงราย </p>
+		  <p> กรุงเทพ - ลำปาง </p>
+		  <p> กรุงเทพ - แม่ฮ่องสอน </p>
+		  <p> กรุงเทพ - น่าน </p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-car" style="font-size:60px;color:lightblue;text-shadow:2px 2px 4px #000000;"></i></p>
+        <p>ภาคอีสาน</p>
+		  <p> กรุงเทพ - อุบลราชธานี</p>
+		  <p> กรุงเทพ - อุดรธานี</p>
+		  <p> กรุงเทพ - ขอนแก่น</p>
+		  <p> กรุงเทพ - แม่สาย</p>
+		  <p> กรุงเทพ - เลย</p>
+      </div>
+      <div class="w3-third w3-light-blue">
+        <p><i class="fa fa-car" style="font-size:60px;color:lightblue;text-shadow:2px 2px 4px #000000;"></i></p>
+        <p>ภาคใต้</p>
+		  <p> กรุงเทพ - นครศรีธรรมราช</p>
+		  <p> กรุงเทพ - สงขลา</p>
+		  <p> กรุงเทพ - หาดใหญ่</p>
+		  <p> กรุงเทพ - กระบี่-พังงา</p>
+		  <p> กรุงเทพ - ภูเก็ต</p>
+      </div>
+    </div>
+		 </div>
+  </div>
+	
+	
 
     <div class="w3-row-padding w3-center w3-margin-top">
   <div class="w3-third">
@@ -273,7 +304,7 @@ and is wrapped around the whole page content, except for the footer in this exam
   <h3></h3>
   <img src="https://www.busticket.in.th/img/transport-tcl.png" height="60px" alt="บริษัท ขนส่ง จำกัด"><br>
   <p>บริษัท ขนส่ง จำกัด</p>
-  <p>ติดต่อ</p>
+  <p>ติดต่อบริการ</p>
   <p>บริษัท ขนส่ง จำกัด ชั้น 4 อาคารสถานีขนส่งผู้โดยสารกรุงเทพฯ (จตุจักร) 999 ถนนกำแพงเพชร 2 แขวงจตุจักร เขตจตุจักร กรุงเทพฯ 10900</p>
   <p>ติดต่อโทรศัพท์: 0-2269-6999</p>
   </div>
@@ -284,7 +315,7 @@ and is wrapped around the whole page content, except for the footer in this exam
   <h3> </h3>
   <img src="https://www2.nakhonchaiair.com/assets/img/logo.png" style="width:190px;"><br>
   <p>บริษัท นครชัยแอร์ จำกัด</p>
-  <p>ติดต่อเรา</p>
+  <p>ติดต่อบริการ</p>
   <p>บริษัท นครชัยแอร์ จำกัด (สำนักงานใหญ่)
 109 ถ.วิภาวดี-รังสิต แขวงลาดยาว
 เขตจตุจักร กรุงเทพฯ 10900
@@ -301,7 +332,7 @@ and is wrapped around the whole page content, except for the footer in this exam
   <img src="https://sombattour.com/addons/shared_addons/themes/sbt/images/logo.png" width="130" height="43" alt=""><br>
   
   <p>บริษัท เทพสมบัติจำกัด</p>
-  <p>ติดต่อเรา</p>
+  <p>ติดต่อบริการ</p>
   <p>วิภาวดี - ศูนย์บริการลูกค้า
 ที่อยู่ : 23/21 ซอยวิภาวดี 13 แขวงลาดยาว เขตจตุจักร กทม. 10900
 
