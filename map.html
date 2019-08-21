@@ -143,7 +143,7 @@
             const dis = this.distance(curLocation.lat, curLocation.lng, targetLocation.lat, targetLocation.lng,
                 "K");
             const time = this.minute;
-            document.getElementById('display').innerHTML ='ระยะห่างของรถโดยสาร ' dis.toFixed(2) + ' กิโลเมตร';
+            document.getElementById('display').innerHTML ='ระยะห่างของรถโดยสาร '+ dis.toFixed(2) + ' กิโลเมตร';
             document.getElementById('time').innerHTML = 'เวลาที่รอรถโดยสาร ' + time.toFixed(2) + ' นาที';
 
             map.setCenter(curLocation);
